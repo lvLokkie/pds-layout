@@ -177,7 +177,7 @@
 .contact-form__background {
     position: absolute;
     top: 154px;
-    left:425px;
+    left: 425px;
 
     background: url("../images/contact/contact_form.png") no-repeat;
     width: 430px;
@@ -186,42 +186,42 @@
 
 .contact-form__input-name {
     position: absolute;
-    top:266px;
+    top: 266px;
     left: 507px;
 
     border: 1px solid #d8d8d8;
-    background-color:  #ffffff;
+    background-color: #ffffff;
     width: 275px;
     height: 31px;
 }
 
-.contact-form__input-email{
+.contact-form__input-email {
     position: absolute;
-    top:312px;
+    top: 312px;
     left: 507px;
 
     border: 1px solid #d8d8d8;
-    background-color:  #ffffff;
+    background-color: #ffffff;
     width: 275px;
     height: 31px;
 }
 
-.contact-form__textarea-message{
+.contact-form__textarea-message {
     position: absolute;
-    top:359px;
+    top: 359px;
     left: 507px;
     max-lines: 5;
     resize: none;
 
     border: 1px solid #d8d8d8;
-    background-color:  #ffffff;
+    background-color: #ffffff;
     width: 275px;
     height: 80px;
 }
 
 .contact-form__submit-button {
     position: absolute;
-    top:472px;
+    top: 472px;
     left: 612px;
     z-index: 2;
 
@@ -438,7 +438,7 @@
 
 .footer {
     position: relative;
-    background-color:  #43a06d;
+    background-color: #43a06d;
     width: 1280px;
     height: 49px;
 
@@ -449,7 +449,7 @@
 
 .footer__text {
     font-family: OpenSans, sans-serif;
-    color:  #ffffff;
+    color: #ffffff;
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
