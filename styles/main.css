@@ -51,6 +51,7 @@
     position: relative;
     display: flex;
     flex-flow: column wrap;
+    z-index: 2;
 }
 
 .banner__zip-form__input {
@@ -127,7 +128,7 @@
     margin-top: 26px;
 
     font-family: OpenSans, sans-serif;
-    color:  #938e8e;
+    color: #938e8e;
     font-size: 15px;
     font-weight: 400;
     text-align: center;
@@ -137,21 +138,101 @@
 
 .banner__zip-form__submit-button {
     align-self: center;
-    margin-top: 26px;
+    margin-top: 20px;
 
     border-radius: 2px;
-    background-color:  #227dd3;
-    width: 217px;
-    height: 34px;
+    background-color: #227dd3;
+    cursor: pointer;
+    width: 192px;
+    height: 45px;
 
     /*Caption font*/
     font-family: OpenSans, sans-serif;
-    color:  #ffffff;
+    color: #ffffff;
     font-size: 25px;
     font-weight: 600;
     line-height: 20px;
     text-align: center;
     transform: scaleY(1.0014);
+}
+
+.banner__zip-form__submit-button:active {
+    background: #ffffff;
+}
+
+.contact {
+    width: 1280px;
+    height: 635px;
+    position: relative;
+}
+
+.contact__map {
+    position: absolute;
+
+    background: url("../images/contact/map.png") no-repeat;
+    width: 1280px;
+    height: 635px;
+}
+
+.contact-form__background {
+    position: absolute;
+    top: 154px;
+    left:425px;
+
+    background: url("../images/contact/contact_form.png") no-repeat;
+    width: 430px;
+    height: 430px;
+}
+
+.contact-form__input-name {
+    position: absolute;
+    top:266px;
+    left: 507px;
+
+    border: 1px solid #d8d8d8;
+    background-color:  #ffffff;
+    width: 275px;
+    height: 31px;
+}
+
+.contact-form__input-email{
+    position: absolute;
+    top:312px;
+    left: 507px;
+
+    border: 1px solid #d8d8d8;
+    background-color:  #ffffff;
+    width: 275px;
+    height: 31px;
+}
+
+.contact-form__textarea-message{
+    position: absolute;
+    top:359px;
+    left: 507px;
+    max-lines: 5;
+    resize: none;
+
+    border: 1px solid #d8d8d8;
+    background-color:  #ffffff;
+    width: 275px;
+    height: 80px;
+}
+
+.contact-form__submit-button {
+    position: absolute;
+    top:472px;
+    left: 612px;
+    z-index: 2;
+
+    cursor: pointer;
+    background: url("../images/contact/submit_button.png");
+    width: 66px;
+    height: 67px;
+}
+
+.contact-form__submit-button:active {
+    background: none;
 }
 
 .container {
@@ -167,6 +248,149 @@
     align-items: center;
 }
 
+.description {
+    height: 1357px;
+    width: 1280px;
+    position: relative;
+    background-color: #5fc18b;
+}
+
+.description__shape {
+    position: absolute;
+    top: 541px;
+
+    background: url("../images/description/shape.png") no-repeat;
+    width: 1280px;
+    height: 333px;
+}
+
+.description__background {
+    position: absolute;
+    top: 541px;
+
+    background: url("../images/description/background.png") no-repeat;
+    width: 1280px;
+    height: 862px;
+}
+
+.description__gadgets-icon {
+    position: absolute;
+    top: 84px;
+    left: 555px;
+    z-index: 2;
+
+    background: url("../images/description/1.png") no-repeat;
+    width: 153px;
+    height: 153px;
+}
+
+.description__gadgets-icon_shadow {
+    position: absolute;
+    top: 85px;
+    left: 205px;
+
+    background: url("../images/description/shadow_1.png") no-repeat;
+    width: 502px;
+    height: 502px;
+}
+
+.description__gadgets-header {
+    position: absolute;
+    top: 272px;
+    left: 455px;
+
+    font-family: OpenSans, sans-serif;
+    color: #ffffff;
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 62px;
+    text-align: center;
+}
+
+.description__gadgets-text {
+    position: absolute;
+    top: 347px;
+    left: 308px;
+
+    font-family: OpenSans, sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    width: 648px;
+}
+
+.description__portable-icon {
+    position: absolute;
+    top: 917px;
+    left: 232px;
+    z-index: 2;
+
+    background: url("../images/description/2.png") no-repeat;
+    width: 272px;
+    height: 227px;
+}
+
+.description__portable-icon_shadow {
+    position: absolute;
+    top: 917px;
+
+    background: url("../images/description/shadow_2.png") no-repeat;
+    width: 503px;
+    height: 576px;
+}
+
+.description__portable-header {
+    position: absolute;
+    top: 905px;
+    left: 596px;
+
+    font-family: OpenSans, sans-serif;
+    color: #ffffff;
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 62px;
+    text-align: center;
+}
+
+.description__portable-text {
+    position: absolute;
+    left: 596px;
+    top: 967px;
+
+    font-family: OpenSans, sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    width: 498px;
+    height: 152px;
+}
+
+.description__download-button {
+    position: absolute;
+    top: 1176px;
+    left: 609px;
+
+    border-radius: 5px;
+    border: 3px solid #ffffff;
+    background-color: rgba(185, 222, 216, 0);
+    width: 202px;
+    height: 57px;
+
+    font-family: OpenSans, sans-serif;
+    color: #ffffff;
+    font-size: 27px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.description__download-button:active {
+    background: #ffffff;
+}
+
 .files {
     height: 400px;
     width: 1280px;
@@ -180,7 +404,6 @@
 .files__file {
     display: flex;
     flex-flow: row nowrap;
-
 }
 
 .files__text-container {
@@ -189,7 +412,7 @@
 
 .files__header {
     font-family: OpenSans, sans-serif;
-    color:  #000000;
+    color: #000000;
     font-size: 27px;
     font-weight: 600;
     line-height: 32px;
@@ -202,15 +425,34 @@
 
 .files__text {
     font-family: OpenSans, sans-serif;
-    color:  #4f4e4e;
-    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    color: #4f4e4e;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
     font-weight: 400;
-    line-height: 23px;/* Приближение из-за подстановки шрифтов */
+    line-height: 23px; /* Приближение из-за подстановки шрифтов */
     text-align: left;
     margin: 19px;
 
     width: 266px;
     height: 60px;
+}
+
+.footer {
+    position: relative;
+    background-color:  #43a06d;
+    width: 1280px;
+    height: 49px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__text {
+    font-family: OpenSans, sans-serif;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
 }
 
 .icon-document {
@@ -234,7 +476,7 @@
 .icon-document__background {
     position: absolute;
     left: 0;
-    top:37px;
+    top: 37px;
 
     background: url("../images/documents/document/document_background.png") no-repeat;
     width: 74px;
@@ -251,7 +493,7 @@
 
 .icon-document__bottom-angle {
     position: absolute;
-    top:23px;
+    top: 23px;
     left: 0;
 
     background: url("../images/documents/document/document_bottom_angle.png") no-repeat;
@@ -280,7 +522,7 @@
 .icon-photo__background {
     position: absolute;
     left: 0;
-    top:37px;
+    top: 37px;
 
     background: url("../images/documents/photos/photos_background.png") no-repeat;
     width: 74px;
@@ -297,7 +539,7 @@
 
 .icon-photo__bottom-angle {
     position: absolute;
-    top:23px;
+    top: 23px;
     left: 0;
 
     background: url("../images/documents/photos/photos_bottom_angle.png") no-repeat;
