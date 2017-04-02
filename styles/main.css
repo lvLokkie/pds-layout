@@ -1,0 +1,314 @@
+.banner {
+    min-height: 800px;
+    width: 1280px;
+    background: url("../images/banner_background.png") no-repeat center;
+    align-content: center;
+    position: relative;
+}
+
+.banner__logo {
+    position: absolute;
+    top: 68px;
+    left: 504px;
+
+    border-radius: 50%;
+    background: #000000 url("../images/logo.png") no-repeat center;
+    width: 273px;
+    height: 273px;
+}
+
+.banner__text {
+    position: absolute;
+    top: 419px;
+    left: 304px;
+
+    font-family: OpenSans, sans-serif;
+    color: #ffffff;
+    font-size: 49px;
+    font-weight: normal;
+    line-height: 62px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.banner__text > strong {
+    font-weight: bold;
+}
+
+.banner__zip-form {
+    position: absolute;
+    left: 470px;
+    top: 579px;
+
+    border-radius: 2px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.28);
+    width: 334px;
+    height: 334px;
+}
+
+.banner__zip-form__relative {
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.banner__zip-form__input {
+    align-self: center;
+    margin-top: 26px;
+
+    border-radius: 2px;
+    border: 1px solid #e5e5e5;
+    background-color: #ffffff;
+    width: 264px;
+    height: 36px;
+}
+
+.banner__zip-form__gallery-items {
+    margin-top: 26px;
+    height: 88px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+
+.banner__zip-form__gallery-item-1 {
+    width: 66px;
+    height: 44px;
+}
+
+.banner__zip-form__gallery-item-2 {
+    width: 70px;
+    height: 44px;
+}
+
+.banner__zip-form__gallery-item-3 {
+    width: 53px;
+    height: 44px;
+}
+
+.banner__zip-form__gallery-item-4 {
+    width: 79px;
+    height: 44px;
+}
+
+.banner__zip-form__gallery-item-5 {
+    width: 66px;
+    height: 44px;
+}
+
+.banner__zip-form__gallery-item-6 {
+    width: 59px;
+    height: 44px;
+}
+
+.banner__zip-form__gallery-item-7 {
+    width: 70px;
+    height: 44px;
+}
+
+.banner__zip-form__gallery-item-8 {
+    width: 64px;
+    height: 44px;
+}
+
+.banner__zip-form__gallery-item-9 {
+    width: 71px;
+    height: 44px;
+}
+
+.banner__zip-form__gallery-item-10 {
+    width: 70px;
+    height: 44px;
+}
+
+.banner__zip-form__text {
+    align-self: center;
+    margin-top: 26px;
+
+    font-family: OpenSans, sans-serif;
+    color:  #938e8e;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    width: 192px;
+    height: 45px;
+}
+
+.banner__zip-form__submit-button {
+    align-self: center;
+    margin-top: 26px;
+
+    border-radius: 2px;
+    background-color:  #227dd3;
+    width: 217px;
+    height: 34px;
+
+    /*Caption font*/
+    font-family: OpenSans, sans-serif;
+    color:  #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    transform: scaleY(1.0014);
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+
+    min-width: 1280px;
+    min-height: 3232px;
+    width: 100%;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.files {
+    height: 400px;
+    width: 1280px;
+    align-content: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.files__file {
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+.files__text-container {
+    height: 116px;
+}
+
+.files__header {
+    font-family: OpenSans, sans-serif;
+    color:  #000000;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    margin: 0 0 0 19px;
+
+    height: 19px;
+    width: calc(100% - 95px);
+}
+
+.files__text {
+    font-family: OpenSans, sans-serif;
+    color:  #4f4e4e;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 23px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin: 19px;
+
+    width: 266px;
+    height: 60px;
+}
+
+.icon-document {
+    position: relative;
+    background: url("../images/documents/document/document_rectangle.png") no-repeat;
+    box-shadow: 0 5px 0 0 rgba(29, 70, 48, 0.75);
+    width: 95px;
+    height: 116px;
+}
+
+.icon-document__icon {
+    position: absolute;
+    top: 36px;
+    left: 22px;
+
+    background: url("../images/documents/document/document_icon.png") no-repeat;
+    width: 51px;
+    height: 62px;
+}
+
+.icon-document__background {
+    position: absolute;
+    left: 0;
+    top:37px;
+
+    background: url("../images/documents/document/document_background.png") no-repeat;
+    width: 74px;
+    height: 79px;
+}
+
+.icon-document__top-angle {
+    position: absolute;
+
+    background: url("../images/documents/document/document_top_angle.png") no-repeat;
+    width: 21px;
+    height: 23px;
+}
+
+.icon-document__bottom-angle {
+    position: absolute;
+    top:23px;
+    left: 0;
+
+    background: url("../images/documents/document/document_bottom_angle.png") no-repeat;
+    width: 21px;
+    height: 22px;
+}
+
+.icon-photo {
+    position: relative;
+    background: url("../images/documents/photos/photos_rectangle.png") no-repeat;
+    box-shadow: 0 5px 0 0 rgba(177, 34, 10, 0.75);
+    width: 95px;
+    height: 116px;
+}
+
+.icon-photo__icon {
+    position: absolute;
+    top: 36px;
+    left: 19px;
+
+    background: url("../images/documents/photos/photos_icon.png") no-repeat;
+    width: 65px;
+    height: 56px;
+}
+
+.icon-photo__background {
+    position: absolute;
+    left: 0;
+    top:37px;
+
+    background: url("../images/documents/photos/photos_background.png") no-repeat;
+    width: 74px;
+    height: 79px;
+}
+
+.icon-photo__top-angle {
+    position: absolute;
+
+    background: url("../images/documents/photos/photos_top_angle.png") no-repeat;
+    width: 21px;
+    height: 23px;
+}
+
+.icon-photo__bottom-angle {
+    position: absolute;
+    top:23px;
+    left: 0;
+
+    background: url("../images/documents/photos/photos_bottom_angle.png") no-repeat;
+    width: 21px;
+    height: 22px;
+}
+
+.site {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.site:hover {
+    box-shadow: 0 18px 32px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
